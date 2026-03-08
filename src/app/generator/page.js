@@ -1,11 +1,19 @@
 'use client';
 
-import { useState, useCallback, useEffect } from 'react';
+import { useState, useCallback, useEffect, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { PRESETS, IDE_OPTIONS, TOGGLE_OPTIONS, generateRules } from '@/data/presets';
 import AdSlot from '@/components/AdSlot';
 
 export default function GeneratorPage() {
+    return (
+        <Suspense fallback={<div className="container" style={{ paddingTop: 'var(--space-2xl)', textAlign: 'center' }}>Loading generator...</div>}>
+            <GeneratorContent />
+        </Suspense>
+    );
+}
+
+function GeneratorContent() {
     const searchParams = useSearchParams();
     const ideParam = searchParams.get('ide');
 
