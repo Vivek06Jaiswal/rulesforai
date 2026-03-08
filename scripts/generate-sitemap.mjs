@@ -27,7 +27,7 @@ const PRESET_IDS = [
     'kotlin-android', 'astro', 'remix-react', 't3-stack',
 ];
 
-const BASE = 'https://rulesforai.com';
+const BASE = 'https://genrulesforai.vercel.app';
 const today = new Date().toISOString().split('T')[0];
 
 function url(loc, priority = '0.7', freq = 'monthly') {
