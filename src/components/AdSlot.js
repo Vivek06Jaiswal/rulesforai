@@ -1,8 +1,5 @@
 export default function AdSlot({ label = 'Advertisement' }) {
-    return (
-        <div className="ad-slot" aria-label={label}>
-            {/* Google AdSense unit will be placed here after approval */}
-            <span>{label}</span>
-        </div>
-    );
+    // AdSense auto-ads will handle placement once approved
+    // No manual ad slots needed — Google decides optimal placement
+    return null;
 }

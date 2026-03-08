@@ -88,7 +88,7 @@ export default function AboutPage() {
                 </h2>
                 <p>
                     Have a suggestion, bug report, or want to contribute a preset?
-                    Reach out at <a href="mailto:hello@rulesforai.com">hello@rulesforai.com</a>.
+                    Reach out at <a href="mailto:calcsav@gmail.com">calcsav@gmail.com</a>.
                 </p>
             </div>
         </div>

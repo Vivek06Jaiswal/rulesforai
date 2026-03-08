@@ -63,7 +63,7 @@ export default function PrivacyPage() {
                 </h2>
                 <p>
                     For questions about this privacy policy, contact us at{' '}
-                    <a href="mailto:hello@rulesforai.com">hello@rulesforai.com</a>.
+                    <a href="mailto:calcsav@gmail.com">calcsav@gmail.com</a>.
                 </p>
             </div>
         </div>
